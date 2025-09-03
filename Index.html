@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denver Alvez/ Work Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="container navbar">
+            <a href="#" class="logo"><i class="fas fa-code"></i>Code Den</a>
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home Page</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Project</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container hero-content">
+                <div class="hero-text reveal">
+                    <h1>Hello, I'm <span class="highlight">Den</span></h1>
+                    <p class="subtitle">Full-stack developer & UI/UX Designer</p>
+                    <p>I craft fast, accessible, and beautiful websites that turn visitors into customers. From landing pages to full-stack products, I partner with businesses to plan, design, develop, and iterate with measurable results.</p>
+                    <div style="margin-top: 2rem;">
+                        <a href="#portfolio" class="btn">My Projects</a>
+                        <a href="#contact" class="btn" style="margin-left: 1rem; background: transparent; color: var(--accent-color);">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <img src="Bible.jpg" alt="Profil">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-img reveal">
+                        <img src="picture.jpg" alt="aboutme">
+                    </div>
+                    <div class="about-text reveal">
+                        <h3>A developer with a passion for software and design</h3>
+                        <p>I'm a passionate Frontend Developer with 3+ years of experience creating responsive, accessible, and performant web applications. 
+                            I specialize in Figma, HTML, CSS , and modern JavaScript frameworks, with a strong focus on creating intuitive user interfaces.</p>
+                        <p style="margin-top: 1rem;">Specializing in front-end and back-end technologies, I can provide effective solutions at every stage of a project. I believe in continuous learning and self-improvement.</p>
+                        <div style="margin-top: 2rem;">
+                            <a href="#contact" class="btn">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="skills" style="background-color: var(--primary-color);">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-container">
+                    <div class="reveal">
+                        <div class="skills-item">
+                            <div class="skills-header">
+                                <span>HTML/CSS</span>
+                                <span>3+ Years</span>
+                            </div>
+                            <div class="skills-bar">
+                                <div class="skills-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-header">
+                                <span>JavaScript</span>
+                                <span>2+ Years</span>
+                            </div>
+                            <div class="skills-bar">
+                                <div class="skills-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-header">
+                                <span>React</span>
+                                <span>1+ Year</span>
+                            </div>
+                            <div class="skills-bar">
+                                <div class="skills-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reveal">
+                        <div class="skills-item">
+                            <div class="skills-header">
+                                <span>UI/UX Designer</span>
+                                <span>3+ Years</span>
+                            </div>
+                            <div class="skills-bar">
+                                <div class="skills-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-header">
+                                <span>Figma</span>
+                                <span>2+ Years</span>
+                            </div>
+                            <div class="skills-bar">
+                                <div class="skills-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skills-item">
+                            <div class="skills-header">
+                                <span>PHP</span>
+                                <span>3+ Years</span>
+                            </div>
+                            <div class="skills-bar">
+                                <div class="skills-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2 class="section-title">Services</h2>
+                <div class="services-grid">
+                    <div class="service-card reveal" style="border-top: 4px solid var(--accent-color);">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>I develop modern, responsive, and user-friendly websites and web applications.</p>
+                    </div>
+                    <div class="service-card reveal" style="border-top: 4px solid var(--yellow-accent);">
+                        <div class="service-icon" style="color: var(--yellow-accent);">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>I create aesthetic and functional interface designs that focus on user needs.</p>
+                    </div>
+                    <div class="service-card reveal" style="border-top: 4px solid var(--purple-accent);">
+                        <div class="service-icon" style="color: var(--purple-accent);">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Compatibility</h3>
+                        <p>Seamlessly working interfaces optimized for mobile devices.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="portfolio" style="background-color: var(--primary-color);">
+            <div class="container">
+                <h2 class="section-title">Project</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item reveal">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Proje 1" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3>E-commerce Analytics Dashboard</h3>
+                            <p> A comprehensive dashboard for e-commerce businesses to track sales, customer behavior, and inventory in real-time.</p><br>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">React</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Chart.js</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item reveal">
+                        <img src="html.jfif" alt="Proje 2" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3>Tanghal Real-Estate Website</h3>
+                            <p>A fully responsive Tanghal Real-Estate Website built with HTML, CSS, JavaScript, and PHP to showcase projects, skills, and contact information.</p><br>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">HTML</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full"> Tailwind CSS</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item reveal">
+                        <img src="https://images.unsplash.com/photo-1555421689-3f034debb7a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Proje 3" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3>Fitness Tracking App</h3>
+                            <p>A cross-platform mobile application for tracking workouts, nutrition, and progress with beautiful data visualization.</p><br>
+                             <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">React Native</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Firebase</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Redux</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item reveal">
+                        <img src="project4.png" alt="Proje 3" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3>Business Landing Page</h3>
+                            <p> I’ve transformed it into a business-focused website that helps users explore your company’s vision, services, and portfolio, with engaging images for services and projects.</p><br>
+                             <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">HTML</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Bootstrap CSS</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">JS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item reveal">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1170&q=80" alt="Proje 3" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3>Modern Blog Platform</h3>
+                            <p>  A full-stack blog platform with user authentication, markdown support, and real-time comments.</p><br>
+                             <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Node.JS</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Express</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">MongoDB</span>
+                            </div>
+                        </div>
+                     </div>
+
+                     <div class="portfolio-item reveal">
+                        <img src="Screenshot 2025-08-28 215341.png" alt="Proje 3" class="portfolio-img">
+                        <div class="portfolio-content">
+                            <h3>Malnutrition Tracking App</h3>
+                            <p> A full-stack application for tracking malnutrition in children, featuring user authentication, data visualization, and real-time updates.</p><br>
+                             <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Figma</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">React</span>
+                                <span class="bg-gray-700 text-gray-300 text-xs px-3 py-1 rounded-full">Node.JS</span>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" style="background-color: var(--primary-color);">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info reveal">
+                        <h3 style="margin-bottom: 1.5rem;">Contact Me</h3>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Zambales, Philippines</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>denverrolaalvez@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Contact No.</h4>
+                                <p>+63 951 000 1106</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <form class="contact-form reveal">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-input" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-input" placeholder="Your Email Address">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <input id="message" class="form-input" placeholder="Your Message..."/>
+                        </div>
+                        <button type="submit" class="btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/denver.alvez.9" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://github.com/kingden2203/denver-alvez" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/denver-alvez-b04516381" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/zcnden?igsh=MWY1MDhmbjE2MW5meQ==" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© 2025 Code_Den. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>            
